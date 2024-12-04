@@ -1,9 +1,13 @@
 #Le programme doit:
 #Proposer un mot en anglais, l'utilisateur doit pouvoir répondre, et le programme donne la réponse
 
-print("--------------------------------------")
+print("-------------------------------------------------------------")
+print("Programme de révision, mots de vocabulaire et mots de liaison")
+print("Par Poisson Siméon")
+print("Version 2")
+print("-------------------------------------------------------------")
 print('Commandes et informations avec: "help"')
-print("--------------------------------------")
+print("-------------------------------------------------------------")
 
 while True:
 
