@@ -1,188 +1,190 @@
-#Le programme doit:
-#Proposer un mot en anglais, l'utilisateur doit pouvoir répondre, et le programme donne la réponse
+import random
 
-print("-------------------------------------------------------------")
-print("Programme de révision, mots de vocabulaire et mots de liaison")
-print("Par Poisson Siméon")
-print("Version 2")
-print("-------------------------------------------------------------")
-print('Commandes et informations avec: "help"')
-print("-------------------------------------------------------------")
 
-while True:
+def separer_fr_eng(ligne: str):
+    """
+    Sépare le mot anglais et français d'une ligne et les retourne sous forme de tuples
+    """    
+    if ligne != "Mots de liaisons" and ligne != "" and ligne != " ":
+        partie_eng = ""
+        partie_fr = ""
 
-    import random
+        for i in range(len(ligne)):
+            if ligne[i] == ":":
+                partie_eng = ligne[:i-1].strip()
+                partie_fr = ligne[i+2:].strip()
+                return partie_eng, partie_fr
 
-    vocabulaire = 'vocabulaire.txt'
+def load_vocab_list(file: str="vocabulaire.txt") -> list:
+    """
+    Ouvre la liste de vocabulaire et l'ajoute à une liste
+    """
+    data = []
+    with open(file, 'r') as f:
+        for ligne in f:
+            data.append(ligne)
+        f.close()
+    return data
 
-    liste_ligne = []
+def score_moyen(reponses_correctes: int, reponses_totales: int) -> float:
+    """
+    Calcule le nouveau score en %
+    """
+    if reponses_totales == 0:
+        return 0
+    return round((reponses_correctes/reponses_totales)*100, 1)
 
-    with open(vocabulaire , 'r', encoding='utf-8') as fichier:
+def void_e_accents(texte: str) -> str:
+    """
+    Remplace les accents en é, è ou ê en e
+    """
+    res = ""
+    for char in texte:
+        if char == "é" or char == "è" or char == "ê":
+            res += "e"
+        else:
+            res += "e"
+    return res
 
-        for ligne in fichier:
+def help() -> str:
+    """
+    Afficher les commandes
+    """
+    print("\n==================== Apprentissage Vocabulaire ====================")
+    print('- Tapez les commandes suivantes après le chevron ">>>"')
+    print('- "résultats" / "resultats" -> afficher le résumé du score')
+    print('- "smart" / "no-smart" -> activer / désactiver le mode intelligent')
+    print()
+    print('"help" ou "?" pour afficher ces indications')
+    print("==================== ------------------------- ====================\n")
 
-            liste_ligne.append(ligne)
 
-        ligne_random = random.choice(liste_ligne)    
 
-        sortie_anglais = ""
-        question = ""
+global liste
+liste = load_vocab_list()
 
-        for partie_anglais in ligne_random:
+def ligne_random() -> tuple:
+    return separer_fr_eng(random.choice(liste))
 
-            if partie_anglais != ':':
 
-                sortie_anglais = sortie_anglais + partie_anglais
+reponses_correctes = 0
+reponses_totales = 0
+score = 0.0
+saisie = ""
+cmd = ""
+hardmode = ""
+smart = 0
 
+help()
+
+mode_lelievre = input("⚠️  Activer le mode Lelièvre ? ⚠️  (y|n): ")
+
+if mode_lelievre == "y":
+    hardmode = " 💀 "
+
+while cmd != "exit":
+    """
+    Programme principal
+    """
+
+    ligne = ligne_random()
+    english = ligne[0]
+    francais = ligne[1]
+
+    mode = random.choice((0, 1))
+
+    if mode == 0:
+        print(f'\n----------{hardmode}-----------\n\nTraduction de "{english}" en français :\n')
+        saisie = input("Prompt : ")
+        
+        if mode_lelievre == "y":
+            if void_e_accents(saisie.lower()) == void_e_accents(francais.lower()):
+                print("✅ Correct !")
+                reponses_correctes += 1
+                reponses_totales += 1
             else:
+                print(f'❌ Faux. La bonne réponse était "{francais}"')
+                reponses_totales += 1
 
-                question = sortie_anglais
+                if smart == 1:
+                    for _ in range(10):
+                        liste.append(f"{english} : {francais}")
 
-        sortie_française = ""
-        sortie_française_retournée = ""
-        ligne_random_retournee = ""
-        réponse_retournée = ""
-        réponse = ""
+            score = score_moyen(reponses_correctes, reponses_totales)
+            cmd = input(f"\n...Score : {score}% >>> ")
 
-        for lettre in ligne_random:
+            if cmd == "smart":
+                smart = 1
+                print("\n[Mode intelligent activé]")
+            elif cmd == "no-smart":
+                smart = 0
+                print("\n[Mode intelligent désactivé]")
+            elif cmd == "show-liste":
+                print(liste)
+            elif cmd == "show-len-liste":
+                print(len(liste))
+            elif cmd == "help" or cmd == "?":
+                help()
 
-            ligne_random_retournee = lettre + ligne_random_retournee
+            if (cmd == "résultats" or cmd == "resultats") and mode_lelievre == "y":
+                print(f"\nRéponses correctes = {reponses_correctes}")
+                print(f"Réponses totales = {reponses_totales}")
 
-        for partie_française_retournée in ligne_random_retournee:
+        else:
+            print(f'\nCorrection : "{francais}"')
+            cmd = input("\n>>> ")
 
-            if partie_française_retournée != ":":
-
-                sortie_française_retournée = sortie_française_retournée + partie_française_retournée
-
+            if cmd == "smart" or cmd == "no-smart":
+                print("\n❌ Mode intelligent désactivé dans le mode simple ❌")
+            if cmd == "résultats" or cmd == "resultats":
+                print("\n❌ Score désactivé dans le mode simple ❌")
+            elif cmd == "help" or cmd == "?":
+                help()
+        
+    elif mode == 1:
+        print(f'\n----------{hardmode}-----------\n\nTraduction de "{francais}" en anglais :\n')
+        saisie = input("Prompt : ")
+        
+        if mode_lelievre == "y":
+            if void_e_accents(saisie.lower()) == void_e_accents(english.lower()):
+                print("✅ Correct !")
+                reponses_correctes += 1
+                reponses_totales += 1
             else:
+                print(f'❌ Faux. La bonne réponse était "{english}"')
+                reponses_totales += 1
 
-                réponse_retournée = sortie_française_retournée
+                if smart == 1:
+                    for _ in range(10):
+                        liste.append(f"{english} : {francais}")
 
-        for lettre in réponse_retournée:
+            score = score_moyen(reponses_correctes, reponses_totales)
+            cmd = input(f"\n...Score : {score}% >>> ")
 
-            réponse = lettre + réponse
-    
-        print("Traduit ce mot en Français:")
-        print("")
-        print(question)
-        print("")
+            if cmd == "smart":
+                smart = 1
+                print("\n[Mode intelligent activé]")
+            elif cmd == "no-smart":
+                smart = 0
+                print("\n[Mode intelligent désactivé]")
+            elif cmd == "show-liste":
+                print(liste)
+            elif cmd == "show-len-liste":
+                print(len(liste))
+            elif cmd == "help" or cmd == "?":
+                help()
 
-        saisie = input()
+            if (cmd == "résultats" or cmd == "resultats") and mode_lelievre == "y":
+                print(f"\nRéponses correctes = {reponses_correctes}")
+                print(f"Réponses totales = {reponses_totales}")
 
-        if saisie.lower()=="stop":
-            break
-        if saisie.lower()=="help":
-            print("-----------------------------------------------------------------------")
-            print('Pour arrêter, écrire "stop"')
-            print('Pour passer la question, faire Entrer')
-            print('Pour valider la question, faire Entrer')
-            print("-----------------------------------------------------------------------")
-            print("N'hésitez pas à modifier le fichier vocabulaire.txt si c'est nécessaire")            
-            print("-----------------------------------------------------------------------")
+        else:
+            print(f'\nCorrection : "{english}"')
+            cmd = input("\n>>> ")
 
-        print("")
-        print("La réponse est:", réponse)
-
-        saisie = input()
-
-        if saisie.lower()=="stop":
-            break
-        if saisie.lower()=="help":
-            print("-----------------------------------------------------------------------")
-            print('Pour arrêter, écrire "stop"')
-            print('Pour passer la question, faire Entrer')
-            print('Pour valider la question, faire Entrer')
-            print("-----------------------------------------------------------------------")
-            print("N'hésitez pas à modifier le fichier vocabulaire.txt si c'est nécessaire")            
-            print("-----------------------------------------------------------------------")
-
-
-    import random
-
-    vocabulaire = 'vocabulaire.txt'
-
-    liste_ligne = []
-
-    with open(vocabulaire , 'r', encoding='utf-8') as fichier:
-
-        for ligne in fichier:
-
-            liste_ligne.append(ligne)
-
-        ligne_random = random.choice(liste_ligne)    
-
-        sortie_anglais = ""
-        question = ""
-
-        for partie_anglais in ligne_random:
-
-            if partie_anglais != ':':
-
-                sortie_anglais = sortie_anglais + partie_anglais
-
-            else:
-
-                question = sortie_anglais
-
-        sortie_française = ""
-        sortie_française_retournée = ""
-        ligne_random_retournee = ""
-        réponse_retournée = ""
-        réponse = ""
-
-        for lettre in ligne_random:
-
-            ligne_random_retournee = lettre + ligne_random_retournee
-
-        for partie_française_retournée in ligne_random_retournee:
-
-            if partie_française_retournée != ":":
-
-                sortie_française_retournée = sortie_française_retournée + partie_française_retournée
-
-            else:
-
-                réponse_retournée = sortie_française_retournée
-
-        for lettre in réponse_retournée:
-
-            réponse = lettre + réponse
-
-
-        print("")
-        print("Traduit ce mot en Anglais:")
-        print("")
-        print(réponse)
-        print("")
-
-        saisie = input()
-
-        if saisie.lower()=="stop":
-            break
-        if saisie.lower()=="help":
-            print("-----------------------------------------------------------------------")
-            print('Pour arrêter, écrire "stop"')
-            print('Pour passer la question, faire Entrer')
-            print('Pour valider la question, faire Entrer')
-            print("-----------------------------------------------------------------------")
-            print("N'hésitez pas à modifier le fichier vocabulaire.txt si c'est nécessaire")            
-            print("-----------------------------------------------------------------------")
-
-        print("")
-        print("La réponse est:", question)
-
-        saisie = input()
-
-        if saisie.lower()=="stop":
-            break
-        if saisie.lower()=="help":
-            print("-----------------------------------------------------------------------")
-            print('Pour arrêter, écrire "stop"')
-            print('Pour passer la question, faire Entrer')
-            print('Pour valider la question, faire Entrer')
-            print("-----------------------------------------------------------------------")
-            print("N'hésitez pas à modifier le fichier vocabulaire.txt si c'est nécessaire")            
-            print("-----------------------------------------------------------------------")
-
-
-
+            if cmd == "smart" or cmd == "no-smart":
+                print("\n❌ Mode intelligent désactivé dans le mode simple ❌")
+            if cmd == "résultats" or cmd == "resultats":
+                print("\n❌ Score désactivé dans le mode simple ❌")
+            elif cmd == "help" or cmd == "?":
+                help()
