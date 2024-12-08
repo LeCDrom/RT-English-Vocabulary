@@ -50,13 +50,16 @@ def help() -> str:
     """
     Afficher les commandes
     """
-    print("\n==================== Apprentissage Vocabulaire ====================")
+    print("\n========================== Apprentissage Vocabulaire ==========================")
     print('- Tapez les commandes suivantes après le chevron ">>>"')
     print('- "résultats" / "resultats" -> afficher le résumé du score')
     print('- "smart" / "no-smart" -> activer / désactiver le mode intelligent')
+    print('- "show-liste" -> afficher la liste de vocabulaire [debug]')
+    print('- "show-len-liste" -> afficher la longueur de la liste de vocabulaire [debug]')
+    print('- "exit" -> quitter le programme')
     print()
     print('"help" ou "?" pour afficher ces indications')
-    print("==================== ------------------------- ====================\n")
+    print("========================== ------------------------- =========================\n")
 
 
 
@@ -77,7 +80,7 @@ smart = 0
 
 help()
 
-mode_lelievre = input("⚠️  Activer le mode Lelièvre ? ⚠️  (y|n): ")
+mode_lelievre = input("⚠️  Activer le mode examen ? ⚠️  (y|n): ")
 
 if mode_lelievre == "y":
     hardmode = " 💀 "
