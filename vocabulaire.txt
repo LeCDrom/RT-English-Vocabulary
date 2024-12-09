@@ -379,7 +379,7 @@ salt : le sel
 a sword : une épée
 a shield : un bouclier
 once : une fois
-wiched : mauvais/méchant
+wicked : mauvais / méchant
 wild : sauvage
 silver : l'argent (le métal)
 a puppet : une marionnette
