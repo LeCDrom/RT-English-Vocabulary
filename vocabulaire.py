@@ -110,16 +110,16 @@ while cmd != "exit":
         
         if mode_lelievre == "y":
             if clean(saisie) in [clean(trad) for trad in traductions_possibles]:
-                print(f"✅ Correct ! Réponses acceptées : {", ".join(traductions_possibles)}")
+                print(f"✅ Correct ! Réponses acceptées : {', '.join(set(traductions_possibles))}")
                 reponses_correctes += 1
                 reponses_totales += 1
             else:
-                print(f"❌ Faux. Réponses acceptées : {", ".join(traductions_possibles)}")
+                print(f"❌ Faux. Réponses acceptées : {", ".join(set(traductions_possibles))}")
                 reponses_totales += 1
 
                 if smart == 1:
                     for _ in range(10):
-                        liste.append(f"{english} : {francais}")
+                        liste.append((english, francais))
 
             score = score_moyen(reponses_correctes, reponses_totales)
             cmd = input(f"\n...Score : {score}% >>> ")
@@ -136,7 +136,7 @@ while cmd != "exit":
                 print(f"Réponses totales = {reponses_totales}")
 
         else:
-            print(f'\nRéponses acceptées : {", ".join(traductions_possibles)}')
+            print(f'\nRéponses acceptées : {", ".join(set(traductions_possibles))}')
             cmd = input("\n>>> ")
 
             if cmd == "smart" or cmd == "no-smart":
@@ -159,16 +159,16 @@ while cmd != "exit":
         
         if mode_lelievre == "y":
             if clean(saisie) in [clean(trad) for trad in traductions_possibles]:
-                print(f"✅ Correct ! Réponses acceptées : {", ".join(traductions_possibles)}")
+                print(f"✅ Correct ! Réponses acceptées : {", ".join(set(traductions_possibles))}")
                 reponses_correctes += 1
                 reponses_totales += 1
             else:
-                print(f'❌ Faux. Réponses acceptées : {", ".join(traductions_possibles)}')
+                print(f'❌ Faux. Réponses acceptées : {", ".join(set(traductions_possibles))}')
                 reponses_totales += 1
 
                 if smart == 1:
                     for _ in range(10):
-                        liste.append(f"{english} : {francais}")
+                        liste.append((english, francais))
 
             score = score_moyen(reponses_correctes, reponses_totales)
             cmd = input(f"\n...Score : {score}% >>> ")
@@ -185,7 +185,7 @@ while cmd != "exit":
                 print(f"Réponses totales = {reponses_totales}")
 
         else:
-            print(f'\nRéponses acceptées : {", ".join(traductions_possibles)}')
+            print(f'\nRéponses acceptées : {", ".join(set(traductions_possibles))}')
             cmd = input("\n>>> ")
 
             if cmd == "smart" or cmd == "no-smart":
