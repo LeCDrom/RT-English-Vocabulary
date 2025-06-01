@@ -80,7 +80,6 @@ to hurt / hurt / hurt : blesser
 to hurt / hurt / hurt : faire mal
 angry : en colère
 a scream : un cri
-to scream : crier
 a voice : une voix
 a sleepless night : une nuit blanche
 it is no good : cela ne sert à rien
