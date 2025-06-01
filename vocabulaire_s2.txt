@@ -1,0 +1,273 @@
+irrational : irrationnel
+a trauma : un traumatisme
+the wind : le vent
+unsettling : troublant
+haunting : qui hante
+a feeling : un sentiment
+an omen : un présage
+anxiety : anxiété
+sober : sobre
+loud : bruyant
+loud : fort
+to blind : aveugler
+blinding : aveuglant
+safe : en sécurité
+pain : la douleur
+pain : souffrance
+to fill : remplir
+quiet : calme
+quiet : le calme
+to scare : effrayer
+to scream : crier
+to remember : se souvenir
+to remember : se rappeler
+to save : sauver
+to save : sauvegarder
+breath : la respiration
+to breathe : respirer
+what's the use : à quoi cela sert-il
+to whisper : chuchoter
+to whisper : murmurer
+softly : doucement
+to blame : accuser
+to blame : rendre responsable
+to spin / spun / spun : tourner
+to spin / spun / spun : tournoyer
+to look for : chercher
+till : jusqu'à
+until : jusqu'à
+once : une fois
+once : autrefois
+to hurt / hurt / hurt : blesser
+to hurt / hurt / hurt : faire mal
+to laugh : rire
+to fall / fell / fallen : tomber
+to cry : pleurer
+a roar : un rugissement
+fierce : féroce
+fierce : redoutable
+to slink / slunk / slunk : avancer furtivement
+thick : épais
+thin : mince
+an underbrush : un sous-bois
+to stalk one's prey : chasser sa proie
+to pounce : bondir
+a flurry : une rafale
+a claw : une griffe
+to disembowel : éventrer
+crunchy : croustillant
+generally : généralement
+usually : habituellement
+repeatedly : de façon répétée
+to dare : oser
+a bridge : un pont
+a side : un côté
+to choose / chose / chosen : choisir
+a riot : une manifestation
+a riot : une émeute
+a dream : un rêve
+a nightmare : un cauchemar
+to get assaulted ; se faire agresser
+there is no reason why : il n'y a aucune raison à cela
+there is no reason why : il n'y a aucune raison pour que
+to draw / drew / drawn : dégainer
+blind : aveugle
+dumb : muet
+deaf : sourd
+to print : imprimer
+to get killed : se faire tuer
+to hurt / hurt / hurt : blesser
+to hurt / hurt / hurt : faire mal
+angry : en colère
+a scream : un cri
+to scream : crier
+a voice : une voix
+a sleepless night : une nuit blanche
+it is no good : cela ne sert à rien
+it is not worth : cela ne vaut pas la peine
+to interfere : interférer
+to interfere : s'immiscer
+to interfere : se mêler de
+to interfere : s'interposer
+a tear : une larme
+to well up : monter
+to chill : glaçer
+a crowd : une foule
+a soul : une âme
+marital violence : la violence conjugale
+to starve : affamer
+to starve to death : mourir de faim
+enough : assez
+to feed / fed / fed : se nourrir
+so much : tant
+so many : tellement
+still : encore
+safe : en sécurité
+hate : la haine
+amidst : parmi
+to seek the truth : chercher la vérité
+a blinder : une oeillère
+speechless : sans voix
+to remove : ôter
+to remove : enlever
+alone : seul
+somebody : quelqu'un
+to answer : répondre
+commitment : l'engagement
+soon : bientôt
+range : bande
+range : gamme
+range : plage
+device : dispositif
+device : appareil
+a component : un composant
+such as : tel que
+an inductor : une bobine
+an inductor : une inductance
+a capacitor : un condensateur
+a resistor : une résistance
+low : bas
+high : haut
+however : toutefois
+however : cependant
+a value : une valeur
+quite : assez
+quite : plutôt
+bulky : encombrant
+bulky : volumineux
+a amplifier : un amplificateur
+to provide : fournir
+LRC-like : de type LRC
+power supply : alimentation
+a band-rejection filter : filtre réjecteur de bande
+to suppress : supprimer
+a transient : un passage transitoire
+to add : ajouter
+a phase shift : un décalage de phase
+linear : linéaire
+thus : ainsi
+a delay : un décalage
+an all-pass filter : un filtre passe tout
+to follow : suivre
+t blow / blew / blown : souffler
+to bury : enterrer
+to share : partager
+straight on : tout droit
+straight away : immédiatement
+a storm : une tempête
+a memory : un souvenir
+close : proche
+to ring / rang / rung : sonner
+to dream / dreamt / dreamt : rêver
+to feel : sentir
+to feel : se sentir
+to feel : ressentir
+to take / took / taken : prendre
+to say / said / said : dire
+to walk : marcher
+to listen to : écouter
+sometimes : quelque fois
+sometimes : parfois
+sometimes : de temps en temps
+to seem : sembler
+to seem : paraître
+the evil : le mal
+to rule : gouverner
+to rule : reigner
+to rule : dominer
+to rule : régir
+to look for : chercher
+to escape : échapper
+to escape : s'échapper
+flaming : ardent
+flaming : flamboyant
+senseless : insensé
+senseless : stupide
+senseless : absurde
+to fill : remplir
+right now : dès maintenant
+a fireball : une boule de feu / une bombe
+it's up to you : c'est à toi
+it's up to you : il ne tient qu'à toi de
+this : ce 
+this : cet
+this : cette
+these : ces
+those : ces
+wide : large
+a field : un domaine
+a band-pass : un filtre passe-bande
+several : plusieurs
+a channel : un canal
+a telephone central office : des centraux téléphoniques
+speech processing : le traitement de la parole
+to require : nécessiter
+to require : requérir
+anti-aliasing : anti-repliement
+anti-aliasing : anti-crênelage
+a low-pass filter : un filtre passe-bas
+as well as : tout autant que
+as well as : aussi bien que
+a state : une phase
+a state : une étape
+close : proche
+far : loin
+to trust : faire confiance
+a word : un mot
+to seek : chercher
+mind : l'esprit
+to matter : importer
+nothing matters : rien n'a d'importance
+else : autre
+nothing else : rien d'autre
+ours : le nôtre
+ours : la nôtre
+ours : les nôtre
+myself : moi-même
+a view : une vue
+a point of view : un point de vue
+to care about : se préoccuper de
+little : peu
+a little : un peu
+few : peu
+a few : quelques
+amazement : étonnement
+amazement : surprise
+furniture : les meubles
+to damage : endommager
+removal men : les déménageurs
+a scratch : une égratinure
+to damage : endommager
+to discover : découvrir
+endless : sans fin
+endless : infini
+to hear / heard / heard : entendre
+wonder : se demander
+to lose / lost / lost : perdre
+to call : appeler
+to rob : voler
+to rob : rober
+to rob : dérober
+to sell / sold / sold : vendre
+a ship : un navire
+a merchant ship : un navire marchant
+bottom : le fond
+bottomless : sans fond
+a bottomless pit : un gouffre sans fond
+a bottomless pit : l'enfer
+almighty : tout-puissant
+forward : en avant
+backward : en arrière
+redemption : la rédemption
+redemption : le rachat
+to emancipate : émanciper
+to emancipate : affranchir
+slavery : l'esclavage
+none : aucun
+to free : libérer
+to stand aside : de mettre de côté
+to stand aside : s'écarter
+to stand aside : s'effacer
+to fulfill : accomplir
+to fulfill : réaliser
+to fulfill : exaucer
