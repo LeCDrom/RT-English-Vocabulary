@@ -1,12 +1,17 @@
-a trolley : un chariot / caddie
+a trolley : un chariot
+a trolley : caddie
 a leaflets: un prospectus
-a stuff : un truc / un machin
+a stuff : un truc
+a stuff : un machin
 a statement : une affirmation
-whole : entier / complet / intégral
+whole : entier
+whole : complet
+whole : intégral
 a paper round : une tournée de livraison de journaux
 to deliver : livrer
 to be bored : s'ennuyer
-homeless : sans foyer / sans abri
+homeless : sans foyer
+homeless : sans abri
 a practice : une répétition
 to earn money : gagner de l'argent
 a string : une corde
@@ -20,19 +25,26 @@ to dive : plonger
 a lifeguard : un maître nageur
 delivery : livraison
 to be fed up with : en avoir assez de
-to be bored : s'ennuyer / en avoir assez
+to be bored : s'ennuyer
+to be bored : en avoir assez
 to earn money : gagner de l'argent
 to spend money : dépenser de l'argent
 to waste money : gaspiller de l'argent
 to save money : économiser de l'argent
-own : propre / à soi
+own : propre
+own : à soi
 to hire : louer
-trendy : à la mode / branché
+trendy : à la mode
+trendy : branché
 before : avant de
 main : principal
-an amount : une somme / une quantité
-it doesn't matter to me : cela m'importe peu / ça m'est égal
-a goal / an aim / a purpose : un but
+an amount : une somme
+an amount : une quantité
+it doesn't matter to me : cela m'importe peu
+it doesn't matter to me : ça m'est égal
+a goal : un but
+an aim : un but
+a purpose : un but
 a downside : un inconvénient
 a disadvantage : un inconvénient
 a drawback : un inconvénient 
@@ -42,12 +54,16 @@ a piece of : un (singulier)
 to perform : effectuer
 word processor : traitement de texte
 to hear / heard / heard : entendre
-to leave / left / left : partir / quitter / laisser
+to leave / left / left : partir
+to leave / left / left : quitter
+to leave / left / left : laisser
 to wonder : se demander
-still : encore / toujours
-to move : bouger / déménager
+still : encore
+still : toujours
+to move : bouger
+to move : déménager
 might : il se pourrait que
-to hide/hid/hidden : se cacher
+to hide / hid / hidden : se cacher
 to breathe : respirer
 breath : la respiration
 until : jusqu'à
@@ -55,24 +71,31 @@ to rest : se reposer
 to wake / wake / woken : se réveiller
 to forget / forgot / forgotten : oublier
 to sleep / slept / slept : dormir
-rather : assez / plutôt
+rather : assez
+rather : plutôt
 deeply : profondément
 a lie : un mensonge
-to hide / hid / hidden : cacher / se cacher
+to hide / hid / hidden : cacher
+to hide / hid / hidden : se cacher
 against : contre
 no matter : peu importe
-somehow : quelque peu / en quelque sorte
-a revenge : une vengeance / une revanche
+somehow : quelque peu
+somehow : en quelque sorte
+a revenge : une vengeance
+a revenge : une revanche
 to swear / swore / swon : jurer
 a shadow : une ombre
 to avoid : éviter
 a loser : un perdant
 to lose / lost / lost : perdre
 to be aware : être conscient
-I don't care : je m'en fiche / je m'en moque
-to seem : sembler / paraître
+I don't care : je m'en fiche
+I don't care : je m'en moque
+to seem : sembler
+to seem : paraître
 to hurt / hurt / hurt : blesser
-once again : encore une fois / une fois de plus
+once again : encore une fois
+once again : une fois de plus
 too late : trop tard
 too early : trop tôt
 to forget / forgot / forgotten : oublier
@@ -84,13 +107,16 @@ to be interested in : être intéressé par
 a course : un cours
 to do a paper round : faire une tournée de livraison de journaux
 to wast one's time : gâcher son temps
-to plan to : prévoir / projeter / planifier de
+to plan to : prévoir
+to plan to : projeter
+to plan to : planifier de
 bilingual : bilingue
-to act : faire du théâtre / jouer la comédie
+to act : faire du théâtre
+to act : jouer la comédie
 a skill : une compétence
-an audience : un auditoire / public
+an audience : un auditoire
+an audience : public
 to invest : investir
-whole : entier / complet / intégral
 an electrician : un électricien
 usual : habituel 
 unusual : inhabituel
@@ -105,7 +131,6 @@ a land : une terre
 a pathway : un sentier
 the back : le dos
 the earth : la terre
-beneath : sous / dessous / en dessous
 by : à côté de
 to rely on : compter sur
 somewhere : quelque part
@@ -117,35 +142,44 @@ to walk : marcher
 empty : vide
 full : plein
 across : à travers
-to feel / felt / felt : sentir / ressentir
-a caption : un titre / une légende
+to feel / felt / felt : sentir
+to feel / felt / felt : ressentir
+a caption : un titre
+a caption : une légende
 to use : utiliser
 to teach / taught / taught : enseigner
 to learn / learnt / learnt : apprendre
 such as : telle que
-cad (computer aided design) : conception assisté par ordinateur (cao)
+CAD (computer aided design) : conception assisté par ordinateur (CAO)
 to design : concevoir
 a race : une course
-current : actuel / en cours
-an amount : une somme / une quantité
-to hold / held / held : détenir / posséder / tenir
+current : actuel
+current : en cours
+an amount : une somme
+an amount : une quantité
+to hold / held / held : détenir
+to hold / held / held : posséder
+to hold / held / held : tenir
 a cash dispenser : un distributeur de billet
 to dispense : distribuer
 weather conditions : les conditions météo
-a travel agency / agent : une agence de voyage/ un agent de voyage 
+a travel agency : une agence de voyage
+a travel agent : un agent de voyage 
 to find out about something : se renseigner sur quelque chose
 thanks to : grâce à
 to display : afficher
 LCD (liquid crystal display) : affichage à cristaux liquide
 a flight : un vol
-to switch on/off : allumer/éteindre
+to switch on : allumer
+to switch off : éteindre
 a microwave oven : un four à micro-ondes
 anything : n'importe quoi
 to manage : gérer
 a customer : un client
 to print : imprimer
 even : même
-a device : un appareil / un dispositif
+a device : un appareil
+a device : un dispositif
 a topic : un sujet
 a schedule : un emploi du temps
 a seamstress : une couturière
@@ -159,7 +193,9 @@ fabric : du tissu
 a pencil : un crayon
 a statement : une affirmation
 to be allowed : être autorisé
-tidy / untidy : rangé / désordonné / mal rangé
+tidy : rangé
+untidy : désordonné
+untidy : mal rangé
 messy : désordonné
 clean : propre
 dirty : sale
@@ -167,27 +203,35 @@ early : tôt
 late : tard
 a cedar : un cêdre
 asleep : endormi
-a heap : un tas / un amas
+a heap : un tas
+a heap : un amas
 a deadline : limite
-to squeeze : serrer / presser / étreindre
+to squeeze : serrer
+to squeeze : presser
+to squeeze : étreindre
 a headline : un titre
 to tidy : ranfer
 a toy : un jouet
 salt : le sel
 salty : salé
 a tear : une larme
-a scent : une odeur / une senteur / un parfum
-to linger : s'attarder / trainer
+a scent : une odeur
+a scent : une senteur
+a scent : un parfum
+to linger : s'attarder
+to linger : traîner
 to draw / drew / drawn : tirer
-a bank : une berge / une rive
+a bank : une berge
+a bank : une rive
 to take a while : prendre son temps
-unholy : épouvantable / profane
+unholy : épouvantable
+unholy : profane
 a cloud : un nuage
 to light / lit / lit : allumer
 above : au dessus
-a storm chasser : un chasseur de tempêtes
+a storm chaser : un chasseur de tempêtes
 mainly : principalement
-spring / summer / autumn / winter : printemp/eté/automne/hiver
+spring / summer / autumn / winter : printemps / été / automne / hiver
 actually : en fait
 dust : la poussière
 a hailstorm : une tempête de grêle
@@ -195,11 +239,12 @@ lightning : les éclairs
 seasons : les saisons
 uncertainty : incertitude
 to achieve : réaliser
-intinguing : fascinant
+intringuing : fascinant
 scheming : intriguant
 to get involved : se trouver impliqué
 to notice : remarquer
-to screw / to unscrew : visser / dévisser
+to screw : visser
+to unscrew : dévisser
 a screwdriver : tournevis
 a nut : un écrous
 a hacksaw : une scie à métaux
@@ -210,9 +255,11 @@ a path : un chemin
 a size : une taille
 a shape : une forme
 to tear : décliner
-to fold / unfold : plier / déplier
+to fold : plier
+unfold : déplier
 a seat : un siège
-to stare at : regarder fixement / fixer du regard
+to stare at : regarder fixement
+to stare at : fixer du regard
 will : la volonté
 to reply : répondre
 numb : abasourdi
@@ -222,7 +269,9 @@ disappointed : déçu
 disappointing : déçevant
 the chest : la poitrine
 application : candidature
-to apply for : postuler / candidater / poser sa candidature
+to apply for : postuler
+to apply for : candidater
+to apply for : poser sa candidature
 able : capable
 unable : incapable
 nevertheless : néanmoins
@@ -238,52 +287,70 @@ restless : agité
 alone : seul
 narrow : étroit
 a cobblestone : un pavé
-beneath : sous / dessous / en-dessous
-a street lamp : un réverbère / un lampadaire
-a collar : un col (de chemise / veste)
+beneath : sous
+beneath : dessous
+beneath : en-dessous
+a street lamp : un réverbère
+a street lamp : un lampadaire
+a collar : un col
 damp : humidité
 to stab : poignarder
-a flash : un éclair / une lueur
-to split / split / split : fendre / déchirer
+a flash : un éclair
+a flash : une lueur
+to split / split / split : fendre
+to split / split / split : déchirer
 naked : nu
 to share : partager
 to dare : oser
 to disturb : déranger
-a fool : un imbécile / un idiot
+a fool : un imbécile
+a fool : un idiot
 a raindrop : une goutte de pluie
 a well : un puit
-to bow : se pencher / s'incliner
+to bow : se pencher
+to bow : s'incliner
 a warning : un avertissement
 a tenement : un immeuble
-to whisper : murmurer / chuchoter
-subway / underground : le métro
-to seem : sembler / paraître
+to whisper : murmurer
+to whisper : chuchoter
+subway : le métro
+underground : le métro
+to seem : sembler
+to seem : paraître
 anytime : à chaque fois 
-seisure : le loisir / les temps libres
+seisure : le loisir
+seisure : les temps libres
 a wedding : un mariage
-damn : les fichus / les satanés
+damn : les fichus
+damn : les satanés
 roller coaster : les montagnes russes
 tired : fatigué
 exhausted : épuisé
-to allot : alloué / dédié
+to allot : alloué
+to allot : dédié
 even : même
 whopping : énorme
 a workload : une charge de travail
 a stumbling block : un obstacle
-renowned : renommé / réputé
+renowned : renommé
+renowned : réputé
 a shortage : une pénurie
-to incur : s'exposer à / s'attirer
+to incur : s'exposer à
+to incur : s'attirer
 wrath : la colère
 a lawn chair : un chaise longue
 obvious : évident
 obviously : évidemment
-to gossip : faire des ragots / faire des commérages
-to top : dépasser / surclasser
+to gossip : faire des ragots
+to gossip : faire des commérages
+to top : dépasser
+to top : surclasser
 to look like : ressembler (la vue)
 to smell like : ressembler (l'odorat)
 to taste like : ressembler (le goût)
 to sound like : ressembler (l'ouïe)
 cosy : confortable
+cozy : confortable
 household management : la gestion du foyer
 to yell : hurler
 a chore : une corvée
@@ -291,45 +358,65 @@ to engage in : s'adonner à
 nagging : le harcèlement
 to be involved : être impliqué
 to depend : approfondir
-awesome : super / génial / extraordinaire / impressionnant
-intrusive : gênant/indiscret
+awesome : super
+awesome : génial
+awesome : extraordinaire
+awesome : impressionnant
+intrusive : gênant
+intrusive : indiscret
 a two-storey house : une maison à deux étages
-at once : à la fois / en même temps
-to climb : escalader / grimper 
+at once : à la fois
+at once : en même temps
+to climb : escalader
+to climb : grimper 
 relationships : les relations
-instead/instead of : à la place / au lieu de
+instead : à la place
+instead of : au lieu de
 to reduce : réduire
 to reveal : révéler
 healthy : en bonne santée
 ability : capacité
-relatives : la famille / les proches
+relatives : la famille
+relatives : les proches
 a gift : un cadeau
 a joke : une blague
 magnificent : magnifique
-a clue : un indice / une indication
+a clue : un indice
+a clue : une indication
 foolishness : la bêtise
-to heal : guérir / cicatriser
+to heal : guérir
+to heal : cicatriser
 a scar : une cicatrice
-whatever : tout ce qui / tout ce que
+whatever : tout ce qui
+whatever : tout ce que
 womb : le ventre (de la mère enceinte)
 joyful : joyeux
-to magnify : grossir (avec une loupe) / sublimer
+to magnify : grossir
+to magnify : sublimer
 a mark : une trace
 a voice : une voix
 a choice : un choix
-till / until : jusqu'à
+till : jusqu'à
+until : jusqu'à
 to lift someone up : aider quelqu'un à se relever
-fat : la graisse / gros / gras
-fit : en forme / en bonne condition
+fat : la graisse
+fat : gros
+fat : gras
+fit : en forme
+fit : en bonne condition
 to nibble : grignoter
 to claim : prétendre
 a couch : un canapé
-appalling : épouvantable / consternant / navrant
+appalling : épouvantable
+appalling : consternant
+appalling : navrant
 weight : le poids
 to be overweight : être en surpoids
 to lose weight : perdre du poids
-to diet / to be on a diet : être au régime / faire un régime
-height : la hauteur / la taille
+to diet : être au régime
+to be on a diet : faire un régime
+height : la hauteur
+height : la taille
 expectation of life : l'espérance de vie
 to be likely to : avoir de forte chances de
 to complain : se plaindre
@@ -345,18 +432,25 @@ a craze : un engouement
 a disease : une maladie
 workshy : paresseux
 a myth : un mythe
-a survey : un sondage / une enquête
+a survey : un sondage
+a survey : une enquête
 to squander : gaspiller
 a grant : une bourse
-a loan : un prêt / en emprunt
-earnings : les revenus / les gains / salaires
+a loan : un prêt
+a loan : un emprunt
+earnings : les revenus
+earnings : les gains
+earnings : salaires
 consummer society : société de consommation
 misfit : inadapté
 significant : significatif
 abroad : à l'étranger
 a bank account : un compte bancaire
-according to : selon / d'après
-average : une moyenne / moyen / moyenne
+according to : selon
+according to : d'après
+average : une moyenne
+average : moyen
+average : moyenne
 despite : en dépit de
 to take steps : prendre des mesures
 earlier : plus tôt
@@ -368,44 +462,59 @@ part-time : à temps partiel
 retirement : la retraite
 one-third : un tiers
 nearly : presque
-to rule : gouverner / régner / dominer
+to rule : gouverner
+to rule : régner
+to rule : dominer
 to sweep / swept / swept : balayer
 to own : posséder
 to roll the dice : lancer des dés
-a croud : une foule
+a crowd : une foule
 a castle : un château
 a piller : un pilier
 salt : le sel
 a sword : une épée
 a shield : un bouclier
 once : une fois
-wicked : mauvais / méchant
+wiched : mauvais
+wiched : méchant
 wild : sauvage
-silver : l'argent (le métal)
+silver : l'argent
 a puppet : une marionnette
 a string : une ficelle
 sand : le sable
 a sound : un son
 to discover : découvrir
 fear : la peur
-to feel / felt / felt : sentir / ressentir
+to feel / felt / felt : sentir
+to feel / felt / felt : ressentir
+to shatter : fracasser
 
-Mots de liaisons:
-
-moreover / furthermore : de plus
-however : toutefois / cependant
+moreover : de plus
+furthermore : de plus
+however : toutefois
+however : cependant
 yet : pourtant
-anyway / anyhow : de toute façon
+anyway : de toute façon
+anyhow : de toute façon
 because of : a cause de
 thanks to : grâce à
-as a result / consequently / it is the reason why : en conséquence
-so / therefore : donc / alors / par conséquent
-given that / seeing that : étant donné que
+as a result : en conséquence
+consequently : en conséquence
+it is the reason why : en conséquence
+so : donc
+so : alors
+so : par conséquent
+therefore : donc
+therefore : alors
+therefore : par conséquent
+given that : étant donné que
+seeing that : étant donné que
 fortunately : heureusement
 unfortunately : malheureusement
 indeed : en effet
 at last : enfin
-in fact / as a matter of fact : en fait
+in fact : en fait
+as a matter of fact : en fait
 although : bien que
 of course : bien sûr
 thus : ainsi
@@ -422,25 +531,31 @@ to make matters worse : pour aggraver les choses
 but the worst of all : mais le pire de tout
 on the one hand : d'un côté
 on the other hand : de l'autre côté
-on the face of it : de prime abord / à première vue
+on the face of it : de prime abord
+on the face of it : à première vue
 but on second thoughts : mais en y réfléchissant bien
-to sum up / to put in a nutshell : pour résumer / en bref
+to sum up : pour résumer
+to put in a nutshell : en bref
 whereas : alors que
 while : pendant que
 even : même
 even if : même si
-despite / in spite of : en dépit de
-nevertheless / nonetheless : néanmoins 
+despite : en dépit de
+in spite of : en dépit de
+nevertheless : néanmoins 
+nonetheless : néanmoins
 on the contrary : au contraire
 otherwise : autrement
 unless : a condition que
 as long as : du moment que
-except : excepté / sauf
+except : excepté
+except : sauf
 as if : comme si
 provided : a condition que
 without : sans
-almost / nearly : presque
+almost : presque
+nearly : presque
 after all : après tout
-for example / for instance : par exemple
-instead / instead of : à la place / au lieu de
+for example : par exemple
+for instance : par exemple
 as usual : comme d'habitude
