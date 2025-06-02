@@ -114,7 +114,7 @@ somebody : quelqu'un
 to answer : répondre
 commitment : l'engagement
 soon : bientôt
-range : bande
+range : unbande
 range : gamme
 range : plage
 device : dispositif
@@ -146,7 +146,7 @@ a phase shift : un décalage de phase
 linear : linéaire
 thus : ainsi
 a delay : un décalage
-an all-pass filter : un filtre passe tout
+an all-pass filter : un filtre passe-tout
 to follow : suivre
 t blow / blew / blown : souffler
 to bury : enterrer
@@ -158,9 +158,9 @@ a memory : un souvenir
 close : proche
 to ring / rang / rung : sonner
 to dream / dreamt / dreamt : rêver
-to feel : sentir
-to feel : se sentir
-to feel : ressentir
+to feel / felt / felt : sentir
+to feel / felt / felt  : se sentir
+to feel / felt / felt  : ressentir
 to take / took / taken : prendre
 to say / said / said : dire
 to walk : marcher
@@ -188,7 +188,7 @@ right now : dès maintenant
 a fireball : une boule de feu / une bombe
 it's up to you : c'est à toi
 it's up to you : il ne tient qu'à toi de
-this : ce 
+this : ce
 this : cet
 this : cette
 these : ces

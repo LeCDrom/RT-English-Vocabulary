@@ -54,19 +54,47 @@ def void_e_accents(texte: str) -> str:
 def clean(s):
     return void_e_accents(s.lower().strip())
 
+def handle_command(commande, smart, mode_lelievre, reponses_correctes, reponses_totales):
+    """
+    Traitement des commandes entrées
+    """
+    commande = commande.strip()
+    if mode_lelievre == "y":
+        if commande == "!smart":
+            smart = 1
+            print("\n[Mode intelligent activé]")
+        elif commande == "!no-smart":
+            smart = 0
+            print("\n[Mode intelligent désactivé]")
+        elif commande == "!resultats":
+            print(f"\nRéponses correctes = {reponses_correctes}")
+            print(f"Réponses totales = {reponses_totales}")
+    else:
+        if commande == "!smart" or commande == "!no-smart":
+            print("\n❌ Mode intelligent désactivé dans le mode simple")
+        elif commande == "!resultats":
+            print("\n❌ Score désactivé dans le mode simple")
+
+    if commande == "!help" or commande == "!?":
+        help()
+
+    # debug
+    elif commande == "!show-liste":
+        print(liste)
+    elif commande == "!show-len-liste":
+        print(len(liste))
+    
 def help() -> str:
     """
     Afficher les commandes
     """
     print("\n==================== Apprentissage Vocabulaire ====================")
-    print('Tapez les commandes suivantes après le chevron ">>>"')
-    print('- "résultats" -> afficher le résumé du score')
-    print('- "smart"     -> activer le mode intelligent')
-    print('- "no-smart"  -> désactiver le mode intelligent')
+    print('- "!smart"     -> activer le mode intelligent')
+    print('- "!no-smart"  -> désactiver le mode intelligent')
+    print('- "!exit"     -> quitter le programme')
     print()
-    print('"help" ou "?" pour afficher ces indications')
+    print('"!help" ou "!?" pour afficher ces indications')
     print("===================================================================\n")
-
 
 
 global liste
@@ -80,7 +108,6 @@ reponses_correctes = 0
 reponses_totales = 0
 score = 0.0
 saisie = ""
-cmd = ""
 hardmode = ""
 smart = 0
 
@@ -89,9 +116,9 @@ help()
 mode_lelievre = input("⚠️  Activer le mode Lelièvre ? (y|n): ")
 
 if mode_lelievre == "y":
-    hardmode = " 💀 "
+    hardmode = "[ 💀 ]"
 
-while cmd != "exit":
+while saisie != "!exit":
     """
     Programme principal
     """
@@ -106,96 +133,58 @@ while cmd != "exit":
         print(f'\n----------{hardmode}-----------\n\nTraduction de "{english}" en français :\n')
         saisie = input("Prompt : ")
 
-        traductions_possibles = [fr for en, fr in liste if en == english]
-        
-        if mode_lelievre == "y":
-            if clean(saisie) in [clean(trad) for trad in traductions_possibles]:
-                print(f"✅ Correct ! Réponses acceptées : {', '.join(set(traductions_possibles))}")
-                reponses_correctes += 1
-                reponses_totales += 1
-            else:
-                print(f"❌ Faux. Réponses acceptées : {", ".join(set(traductions_possibles))}")
-                reponses_totales += 1
-
-                if smart == 1:
-                    for _ in range(10):
-                        liste.append((english, francais))
-
-            score = score_moyen(reponses_correctes, reponses_totales)
-            cmd = input(f"\n...Score : {score}% >>> ")
-
-            if cmd == "smart":
-                smart = 1
-                print("\n[Mode intelligent activé]")
-            elif cmd == "no-smart":
-                smart = 0
-                print("\n[Mode intelligent désactivé]")
-
-            if (cmd == "résultats" or cmd == "resultats") and mode_lelievre == "y":
-                print(f"\nRéponses correctes = {reponses_correctes}")
-                print(f"Réponses totales = {reponses_totales}")
-
+        if ":" in saisie:
+            handle_command(saisie, smart, mode_lelievre, reponses_correctes, reponses_totales)
         else:
-            print(f'\nRéponses acceptées : {", ".join(set(traductions_possibles))}')
-            cmd = input("\n>>> ")
 
-            if cmd == "smart" or cmd == "no-smart":
-                print("\n❌ Mode intelligent désactivé dans le mode simple")
-            if cmd == "résultats" or cmd == "resultats":
-                print("\n❌ Score désactivé dans le mode simple")
-        
-        if cmd == "show-liste":
-            print(liste)
-        elif cmd == "show-len-liste":
-            print(len(liste))
-        elif cmd == "help" or cmd == "?":
-            help()
+            traductions_possibles = [fr for en, fr in liste if en == english]
+            
+            if mode_lelievre == "y":
+                if clean(saisie) in [clean(trad) for trad in traductions_possibles]:
+                    print(f"✅ Correct ! Réponses acceptées : {', '.join(set(traductions_possibles))}")
+                    reponses_correctes += 1
+                    reponses_totales += 1
+                else:
+                    print(f"❌ Faux. Réponses acceptées : {", ".join(set(traductions_possibles))}")
+                    reponses_totales += 1
+
+                    if smart == 1:
+                        for _ in range(10):
+                            liste.append((english, francais))
+
+                score = score_moyen(reponses_correctes, reponses_totales)
+                print(f"\n...Score : {score}% ({reponses_correctes}/{reponses_totales})")
+
+            else:
+                print(f'\nRéponses acceptées : {", ".join(set(traductions_possibles))}')
         
     elif mode == 1:    # Français vers Anglais
         print(f'\n----------{hardmode}-----------\n\nTraduction de "{francais}" en anglais :\n')
         saisie = input("Prompt : ")
 
-        traductions_possibles = [en for en, fr in liste if fr == francais]
-        
-        if mode_lelievre == "y":
-            if clean(saisie) in [clean(trad) for trad in traductions_possibles]:
-                print(f"✅ Correct ! Réponses acceptées : {", ".join(set(traductions_possibles))}")
-                reponses_correctes += 1
-                reponses_totales += 1
-            else:
-                print(f'❌ Faux. Réponses acceptées : {", ".join(set(traductions_possibles))}')
-                reponses_totales += 1
-
-                if smart == 1:
-                    for _ in range(10):
-                        liste.append((english, francais))
-
-            score = score_moyen(reponses_correctes, reponses_totales)
-            cmd = input(f"\n...Score : {score}% >>> ")
-
-            if cmd == "smart":
-                smart = 1
-                print("\n[Mode intelligent activé]")
-            elif cmd == "no-smart":
-                smart = 0
-                print("\n[Mode intelligent désactivé]")
-
-            if (cmd == "résultats" or cmd == "resultats"):
-                print(f"\nRéponses correctes = {reponses_correctes}")
-                print(f"Réponses totales = {reponses_totales}")
-
+        if ":" in saisie:
+            handle_command(saisie, smart, mode_lelievre, reponses_correctes, reponses_totales)
         else:
-            print(f'\nRéponses acceptées : {", ".join(set(traductions_possibles))}')
-            cmd = input("\n>>> ")
 
-            if cmd == "smart" or cmd == "no-smart":
-                print("\n❌ Mode intelligent désactivé dans le mode simple")
-            if cmd == "résultats" or cmd == "resultats":
-                print("\n❌ Score désactivé dans le mode simple")
-        
-        if cmd == "show-liste":
-            print(liste)
-        elif cmd == "show-len-liste":
-            print(len(liste))
-        elif cmd == "help" or cmd == "?":
-            help()
+            traductions_possibles = [en for en, fr in liste if fr == francais]
+            
+            if mode_lelievre == "y":
+                if clean(saisie) in [clean(trad) for trad in traductions_possibles]:
+                    print(f"✅ Correct ! Réponses acceptées : {", ".join(set(traductions_possibles))}")
+                    reponses_correctes += 1
+                    reponses_totales += 1
+                else:
+                    print(f'❌ Faux. Réponses acceptées : {", ".join(set(traductions_possibles))}')
+                    reponses_totales += 1
+
+                    if smart == 1:
+                        for _ in range(10):
+                            liste.append((english, francais))
+
+                score = score_moyen(reponses_correctes, reponses_totales)
+                print(f"\n...Score : {score}% ({reponses_correctes}/{reponses_totales})")
+
+            else:
+                print(f'\nRéponses acceptées : {", ".join(set(traductions_possibles))}')
+
+print("\nArrêt...")
