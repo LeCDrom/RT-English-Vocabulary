@@ -148,7 +148,7 @@ thus : ainsi
 a delay : un décalage
 an all-pass filter : un filtre passe-tout
 to follow : suivre
-t blow / blew / blown : souffler
+to blow / blew / blown : souffler
 to bury : enterrer
 to share : partager
 straight on : tout droit
