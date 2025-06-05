@@ -265,7 +265,7 @@ to emancipate : affranchir
 slavery : l'esclavage
 none : aucun
 to free : libérer
-to stand aside : mettre de côté
+to stand aside : se mettre de côté
 to stand aside : s'écarter
 to stand aside : s'effacer
 to fulfill : accomplir
