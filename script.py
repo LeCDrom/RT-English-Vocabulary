@@ -39,22 +39,24 @@ def score_moyen(reponses_correctes: int, reponses_totales: int) -> float:
         return 0
     return round((reponses_correctes/reponses_totales)*100, 1)
 
-def void_e_accents(texte: str) -> str:
-    """
-    Remplace les accents en é, è ou ê en e
-    """
+def void_accents(texte: str) -> str:
     res = ""
     for char in texte:
-        if char == "é" or char == "è" or char == "ê":
+        if char in "éèê":
             res += "e"
+        elif char in "ô":
+            res += "o"
+        elif char in "-":
+            res += " "
         else:
-            res += "e"
+            res += char
     return res
 
-def clean(s):
-    return void_e_accents(s.lower().strip())
 
-def handle_command(commande, smart, mode_lelievre, reponses_correctes, reponses_totales):
+def clean(s):
+    return void_accents(s.lower().strip())
+
+def handle_command(commande, mode_lelievre, reponses_correctes, reponses_totales):
     """
     Traitement des commandes entrées
     """
@@ -69,20 +71,18 @@ def handle_command(commande, smart, mode_lelievre, reponses_correctes, reponses_
         elif commande == "!resultats":
             print(f"\nRéponses correctes = {reponses_correctes}")
             print(f"Réponses totales = {reponses_totales}")
+        else:
+            print(f'Commande inconnue : "{commande}"')
     else:
         if commande == "!smart" or commande == "!no-smart":
             print("\n❌ Mode intelligent désactivé dans le mode simple")
         elif commande == "!resultats":
             print("\n❌ Score désactivé dans le mode simple")
+        else:
+            print(f'Commande inconnue : "{commande}"')
 
     if commande == "!help" or commande == "!?":
         help()
-
-    # debug
-    elif commande == "!show-liste":
-        print(liste)
-    elif commande == "!show-len-liste":
-        print(len(liste))
     
 def help() -> str:
     """
@@ -101,6 +101,9 @@ global liste
 liste = load_vocab_list()
 
 def ligne_random() -> tuple[str, str]:
+    """
+    Retourne une ligne aléatoire, avec une priorité aux erreurs précédentes si le mode smart est activé
+    """
     return random.choice(liste)
 
 
@@ -109,6 +112,8 @@ reponses_totales = 0
 score = 0.0
 saisie = ""
 hardmode = ""
+
+global smart
 smart = 0
 
 help()
@@ -133,8 +138,8 @@ while saisie != "!exit":
         print(f'\n----------{hardmode}-----------\n\nTraduction de "{english}" en français :\n')
         saisie = input("Prompt : ")
 
-        if ":" in saisie:
-            handle_command(saisie, smart, mode_lelievre, reponses_correctes, reponses_totales)
+        if "!" in saisie:
+            handle_command(saisie, mode_lelievre, reponses_correctes, reponses_totales)
         else:
 
             traductions_possibles = [fr for en, fr in liste if en == english]
@@ -162,8 +167,8 @@ while saisie != "!exit":
         print(f'\n----------{hardmode}-----------\n\nTraduction de "{francais}" en anglais :\n')
         saisie = input("Prompt : ")
 
-        if ":" in saisie:
-            handle_command(saisie, smart, mode_lelievre, reponses_correctes, reponses_totales)
+        if "!" in saisie:
+            handle_command(saisie, mode_lelievre, reponses_correctes, reponses_totales)
         else:
 
             traductions_possibles = [en for en, fr in liste if fr == francais]

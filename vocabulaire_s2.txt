@@ -33,7 +33,6 @@ to blame : accuser
 to blame : rendre responsable
 to spin / spun / spun : tourner
 to spin / spun / spun : tournoyer
-to look for : chercher
 till : jusqu'à
 until : jusqu'à
 once : une fois
@@ -76,8 +75,6 @@ dumb : muet
 deaf : sourd
 to print : imprimer
 to get killed : se faire tuer
-to hurt / hurt / hurt : blesser
-to hurt / hurt / hurt : faire mal
 angry : en colère
 a scream : un cri
 a voice : une voix
@@ -101,7 +98,6 @@ to feed / fed / fed : se nourrir
 so much : tant
 so many : tellement
 still : encore
-safe : en sécurité
 hate : la haine
 amidst : parmi
 to seek the truth : chercher la vérité
@@ -234,7 +230,6 @@ a few : quelques
 amazement : étonnement
 amazement : surprise
 furniture : les meubles
-to damage : endommager
 removal men : les déménageurs
 a scratch : une égratinure
 to damage : endommager
