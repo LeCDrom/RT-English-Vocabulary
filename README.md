@@ -13,11 +13,14 @@ Permet de s'entraîner à la traduction anglais/français et inversement en donn
 ## ⚙️ Fonctionnalités principales
 - Le programme demande aléatoirement à l'utilisateur la traduction anglais/français d'un mot provenant d'une ligne aléatoire.
 - Deux modes de correction :
-  - Mode simple : Aucune erreur n'est prise en compte après la saisie de la traduction. Le programme renvoie la correction.
-  - Mode examen : Les erreurs sont prises en compte et servent à établir un score (%).
+  - **Mode simple** : Aucune erreur n'est prise en compte après la saisie de la traduction. Le programme renvoie la correction.
+  - **Mode examen** : Les erreurs sont prises en compte et servent à établir un score (%).
 - Mode intelligent : Faire une erreur augmente la probabilité de retomber sur la même question, afin de s'exercer par la répétition.
-- Plusieurs commandes peuvent être entrées en tapant la commande appropriée après le chevron ">>>", suite à l'affichage de la correction.
-⠀  
+- Plusieurs commandes peuvent être entrées :
+  - **!smart** : active le mode intelligent
+  - **!no-smart** : désactive le mode intelligent
+  - **!help** / **!?** : affichage aide commandes
+  - **!exit** : quitter le programme⠀  
 ⠀
 ### > Bonnes révisions !
 ⠀
