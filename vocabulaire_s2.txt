@@ -67,7 +67,7 @@ a riot : une manifestation
 a riot : une émeute
 a dream : un rêve
 a nightmare : un cauchemar
-to get assaulted ; se faire agresser
+to get assaulted : se faire agresser
 there is no reason why : il n'y a aucune raison à cela
 there is no reason why : il n'y a aucune raison pour que
 to draw / drew / drawn : dégainer
@@ -114,11 +114,11 @@ somebody : quelqu'un
 to answer : répondre
 commitment : l'engagement
 soon : bientôt
-range : unbande
-range : gamme
-range : plage
-device : dispositif
-device : appareil
+a range : une bande
+a range : une gamme
+a range : une plage
+a device : un dispositif
+a device : un appareil
 a component : un composant
 such as : tel que
 an inductor : une bobine
@@ -134,7 +134,7 @@ quite : assez
 quite : plutôt
 bulky : encombrant
 bulky : volumineux
-a amplifier : un amplificateur
+an amplifier : un amplificateur
 to provide : fournir
 LRC-like : de type LRC
 power supply : alimentation
@@ -185,7 +185,8 @@ senseless : stupide
 senseless : absurde
 to fill : remplir
 right now : dès maintenant
-a fireball : une boule de feu / une bombe
+a fireball : une boule de feu
+a fireball : une bombe
 it's up to you : c'est à toi
 it's up to you : il ne tient qu'à toi de
 this : ce
@@ -264,7 +265,7 @@ to emancipate : affranchir
 slavery : l'esclavage
 none : aucun
 to free : libérer
-to stand aside : de mettre de côté
+to stand aside : mettre de côté
 to stand aside : s'écarter
 to stand aside : s'effacer
 to fulfill : accomplir
