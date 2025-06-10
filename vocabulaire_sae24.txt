@@ -1,0 +1,45 @@
+Power Spectral Density : Densité Spectrale de Puissance
+Occupied BandWidth : Bande Passante Occupée
+Frequency Division Multiplexing : Multiplexage par répartition en Fréquence
+deciBel referred to 1 milliwatt : déciBel rapporté à 1 milliwatt
+Signal to Noise Ratio : Rapport Signal sur Bruit
+Industrial, Scientific and Medical Band : Bande Industrielle, Scientifique et Médicale
+Fast Fourier Transform : Transformée de Fourier Discrète
+Analog to Digital Converter : Convertisseur Analogique vers Numérique
+Digital to Analog Converter : Convertisseur Numérique vers Analogique
+Software Defined Radio : Radio Définie par Logiciel
+
+Primary Domain Controller : Contrôleur de Domaine Principal
+Backup Domain Controller : Contrôleur de Domaine de Secours
+Read-Only Domain Controller : Contrôleur de Domaine en Lecture Seule
+Organizational Unit : Unité Organisationnelle
+Domain Name Server : Serveur de Nom de Domaine
+High-Availability : Haute-Disponibilité
+Single-Sign On : Authentification Unique
+Group Policy Object : Stratégie de groupe
+
+a DNS record : un enregistrement DNS
+scalable : évolutif
+scalable : extensible
+credentials : identifiants
+a backup : une sauvegarde
+a clear-text password : un mot de passe en clair
+a guest account : un compte invité
+encryption : chiffrement
+authentication : authentification
+a token : un jeton
+a security breach : une brèche de sécurité
+a remote desktop : un bureau à distance
+on-premise : sur site
+
+to compute : calculer
+a degree : un degré
+a derivative : une dérivée
+to divide : diviser
+a continuous function : une fonction continue
+a real number : un nombre réel
+root : racine
+square root : racine carrée
+induction : récurrence
+sign : signe
+a sequence : une suite

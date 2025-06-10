@@ -192,7 +192,7 @@ these : ces
 those : ces
 wide : large
 a field : un domaine
-a band-pass : un filtre passe-bande
+a band-pass filter : un filtre passe-bande
 several : plusieurs
 a channel : un canal
 a telephone central office : des centraux téléphoniques

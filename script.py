@@ -15,7 +15,7 @@ def separer_fr_eng(ligne: str) -> tuple:
                 partie_fr = ligne[i+2:]
                 return partie_eng, partie_fr
 
-def load_vocab_list(file: str="vocabulaire_s2.txt") -> list[tuple[str, str]]:
+def load_vocab_list(file: str="vocabulaire_sae24.txt") -> list[tuple[str, str]]:
     """
     Ouvre la liste de vocabulaire et l'ajoute à une liste
     """
@@ -46,8 +46,10 @@ def void_accents(texte: str) -> str:
             res += "e"
         elif char in "ô":
             res += "o"
-        elif char in "-":
+        elif char in "-'":
             res += " "
+        elif char in ",":
+            res += "":
         else:
             res += char
     return res
@@ -65,24 +67,30 @@ def handle_command(commande, mode_lelievre, reponses_correctes, reponses_totales
         if commande == "!smart":
             smart = 1
             print("\n[Mode intelligent activé]")
+        if commande == "!help" or commande == "!?":
+            help()
         elif commande == "!no-smart":
             smart = 0
             print("\n[Mode intelligent désactivé]")
         elif commande == "!resultats":
             print(f"\nRéponses correctes = {reponses_correctes}")
             print(f"Réponses totales = {reponses_totales}")
+        elif commande == "!exit":
+            pass
         else:
             print(f'Commande inconnue : "{commande}"')
     else:
         if commande == "!smart" or commande == "!no-smart":
             print("\n❌ Mode intelligent désactivé dans le mode simple")
+        if commande == "!help" or commande == "!?":
+            help()
         elif commande == "!resultats":
             print("\n❌ Score désactivé dans le mode simple")
+        elif commande == "!exit":
+            pass
         else:
             print(f'Commande inconnue : "{commande}"')
 
-    if commande == "!help" or commande == "!?":
-        help()
     
 def help() -> str:
     """
