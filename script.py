@@ -15,7 +15,7 @@ def separer_fr_eng(ligne: str) -> tuple:
                 partie_fr = ligne[i+2:]
                 return partie_eng, partie_fr
 
-def load_vocab_list(file: str="vocabulaire_sae24.txt") -> list[tuple[str, str]]:
+def load_vocab_list(file: str="vocabulaire_s3.txt") -> list[tuple[str, str]]:
     """
     Ouvre la liste de vocabulaire et l'ajoute à une liste
     """
@@ -49,7 +49,7 @@ def void_accents(texte: str) -> str:
         elif char in "-'":
             res += " "
         elif char in ",":
-            res += "":
+            res += ""
         else:
             res += char
     return res
