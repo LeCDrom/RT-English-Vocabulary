@@ -3,7 +3,7 @@ motorway : autoroute
 cool : frais
 a smell : une odeur
 to shimmer : trembler
-to shimmer : vasciller
+to shimmer : vaciller
 sight : la vue
 dim : faible
 to grow / grew / grown : grandir
@@ -87,7 +87,7 @@ a brook : un ruisseau
 by the brook : près du ruisseau
 to think / thought / thought : penser
 a thought : une pensée
-missgiven : rempli de doute
+misgiven : rempli de doute
 to wonder : se demander
 a ring : un anneau
 smoke : la fumée
@@ -130,7 +130,7 @@ the wings : les coulisses
 although : bien que
 authentication : authentification
 a header : un en-tête
-curently : actuellement
+currently : actuellement
 to match : égaler
 to match : correspondre
 length : longueur
@@ -178,7 +178,7 @@ forward : faire suivre
 forward : expédier
 whenever : à chaque fois que
 already : déjà
-to skew : biasier
+to skew : biaiser
 to skew : fausser
 to drop : lâcher
 to drop : abandonner
@@ -225,7 +225,7 @@ also : aussi
 a stage : une étape
 either...or : ou...ou
 as such : en tant que tel
-bandwith : largeur de bande
+bandwidth : largeur de bande
 a feature : une caractéristique
 to belong : appartenir
 to fail : échouer
@@ -237,8 +237,8 @@ efficient : efficace
 each : chaque
 own : propre
 own : à soi
-straight foward : simple
-straight foward : franc
+straight forward : simple
+straight forward : franc
 so that : pour que
 so that : afin que
 fully : totalement
@@ -273,7 +273,7 @@ Civil Rights Act : Loi sur les Droits Civiques
 distrust in democracy : méfiance envers la démocratie
 deterioration of people's access to information : détérioration de l'accès des personnes à l'information
 media tycoon : magnat des médias
-cover-up operations during the Vietnam war : opérations de dissimulation pendant la guerre du vietnam
+cover-up operations during the Vietnam war : opérations de dissimulation pendant la guerre du Vietnam
 to fear : craindre
 fear : la peur
 working-class background : origine ouvrière
