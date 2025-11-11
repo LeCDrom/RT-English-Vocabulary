@@ -30,7 +30,7 @@ to check out : payer la note
 to check out : crever
 to check out : claquer
 
-wireless : sans fil
+wireless : sans-fil
 digital : numérique
 to retranscribe : retranscrire
 a wonder : une merveille
@@ -254,7 +254,7 @@ while : pendant que
 to summarize : résumer
 to summarize : récapituler
 to await : être en attente
-the next few chapter : les quelques chapitres suivants
+the next few chapters : les quelques chapitres suivants
 obvious : évident
 conversely : inversement
 conversely : réciproquement
