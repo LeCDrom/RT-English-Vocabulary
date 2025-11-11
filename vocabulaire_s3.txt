@@ -237,8 +237,8 @@ efficient : efficace
 each : chaque
 own : propre
 own : à soi
-straight forward : simple
-straight forward : franc
+straightforward : simple
+straightforward : franc
 so that : pour que
 so that : afin que
 fully : totalement
