@@ -10,7 +10,7 @@ DR : Designed Router
 BDR : Backup Designed Router
 NBMA : NumBroadcast Multi-Access
 DBD : DataBase Descriptor
-DDP : DataBase Descriptor Packet
+DDP : Database Descriptor Packet
 IP : Internet Protocol
 CPU : Central Processing Unit
 PVC : Permanent Virtual Circuit
