@@ -1,0 +1,20 @@
+SPF : Shortest Path First
+OSPF : Open Shortest Path First
+LAN : Local Area Network
+WAN : Wide Area Network
+LSA : Link State Advertisement
+LSU : Link State Update
+LSR : Link State Request
+LSP : Link State Packet
+DR : Designed Router
+BDR : Backup Designed Router
+NBMA : NumBroadcast Multi-Access
+DBD : DataBase Descriptor
+DDP : DataBase Descriptor Packet
+IP : Internet Protocol
+CPU : Central Processing Unit
+PVC : Permanent Virtual Circuit
+HDLC : Highlevel Data Link Control
+FDDI : Fiber Distribute Data Interface
+RFC : Request For Comments  
+IOS : Input Output System
