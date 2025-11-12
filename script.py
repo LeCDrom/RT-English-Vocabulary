@@ -237,6 +237,7 @@ while saisie != "!exit":
                         print(f"❌ Faux. Réponses acceptées : {", ".join(set(traductions_possibles))}")
                         print(f"Vous avez échoué avec une série de {reponses_correctes}...")
                         i = 0
+                        reponses_correctes = 0
             
             elif mode == 1:    # Français vers Anglais
                 print(f'\n----------{emoji}-----------\n\nTraduction de "{francais}" en anglais :\n')
@@ -256,6 +257,7 @@ while saisie != "!exit":
                         print(f'❌ Faux. Réponses acceptées : {", ".join(set(traductions_possibles))}')
                         print(f"Vous avez échoué avec une série de {reponses_correctes}...")
                         i = 0
+                        reponses_correctes = 0
 
         print("Bravo vous connaissez votre vocabulaire ! Bon examen.")
 
